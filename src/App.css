@@ -1,0 +1,219 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#pill {
+  background-color: orange;
+  padding: 3px 20px;
+  cursor: pointer;
+  border-radius: 86px;
+}
+
+#modalpill {
+  background-color: orange;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 86px;
+  color: white;
+  border: none;
+}
+
+#navbarpill {
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(238, 102, 125);
+}
+
+.iconsearch {
+  position: absolute;
+  right: 360px;
+  top: 25px;
+}
+
+#gradient {
+  height: 50px;
+  background: linear-gradient(to right, orange, rgb(211, 58, 84));
+}
+
+sup {
+  height: 100px;
+  width: 1000;
+  background-color: #bbb;
+  border-radius: 100%;
+}
+
+.btn1 {
+  min-width: 250px;
+}
+
+.tableheading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+p.weight {
+  font-weight: 900;
+}
+
+.header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.header1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.text {
+  border-radius: 8px;
+}
+
+.text:hover {
+  background-color: gray;
+  color: white;
+}
+
+.head {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+
+.addheading {
+  margin-left: 200px;
+}
+.formfont { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+.sethighlite {
+  font-weight:600;
+}
+.submitvalue {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+.tableheadrow {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+/* .statusalign {
+  height:25px;
+  width:45px;
+  margin-left:62px;
+  margin-top:3px;
+  border-radius: 15px;
+  background-color:rgb(213, 30, 30);
+  border:none;
+} */
+.halign {
+  margin-left: 62px;
+  margin-top: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: rgb(208, 20, 20);
+}
+
+/* input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+} */
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

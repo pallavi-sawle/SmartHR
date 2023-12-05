@@ -9,7 +9,6 @@ const Subscription = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-
   const [addplan, setAddPlan] = useState([]);
   const [name, setName] = useState("");
   const [amount, setAmount] = useState("");
@@ -160,7 +159,7 @@ const Subscription = () => {
         </div>
       </div>
 
-      <div className='row mt-3 offset-2'>
+      <div className='row mt-3 offset-2 g-3'>
         <div className='col-lg-3 shadow m-3'>
           <h6 className='text-center mt-2 header'> Free </h6>
           <h3 className='text-center mt-2'>
@@ -169,9 +168,7 @@ const Subscription = () => {
           <p className='weight'><i className="fa fa-check text-success"></i> 30 Users </p>
           <p><i className="fa fa-check text-success"></i> 50 Projects </p>
           <p><i className="fa fa-check text-success"></i> 100 GB Storage </p>
-          <div>
-            <button className='mb-4 btn btn-secondary btn1 mt-5'> Edit </button>
-          </div>
+          <button className='mb-4 btn btn-secondary btn1 mt-5'> Edit </button>
         </div>
 
         <div className='col-lg-3 m-3 shadow'>
@@ -182,9 +179,7 @@ const Subscription = () => {
           <p className='weight'><i className="fa fa-check text-success weight"></i> 5 User </p>
           <p><i className="fa fa-check text-success"></i> 50 Projects </p>
           <p><i className="fa fa-check text-success"></i> 100GB Storage </p>
-          <div>
-            <button className='mb-4 btn btn-secondary btn1 mt-5'> Edit </button>
-          </div>
+          <button className='mb-4 btn btn-secondary btn1 mt-5'> Edit </button>
         </div>
 
         <div className='col-lg-3 m-3 shadow'>
@@ -194,18 +189,15 @@ const Subscription = () => {
           <p className='weight'><i className="fa fa-check text-success weight"></i> Unlimited User </p>
           <p><i className="fa fa-check text-success"></i> 5 Projects </p>
           <p><i className="fa fa-check text-success"></i> 5GB Storage </p>
-          {/* <p><i className="fa fa-check text-success"></i>  5GB Storage </p> */}
-          <div>
-            <button className='mb-4 btn btn-secondary btn1 mt-5'> Edit </button>
-          </div>
+          <button className='mb-4 btn btn-secondary btn1 mt-5'> Edit </button>
         </div>
       </div>
-      <div className='row offset-2'>
+      <div className='row offset-2 g-3'>
         <div className='col-lg-10'>
-          <p className='tableheading shadow '> Plan Details </p>
+          <p className='tableheading shadow'> Plan Details </p>
         </div>
       </div>
-      <div className='row offset-2'>
+      <div className='row offset-2 g-3'>
         <div className='col-lg-10'>
           <table className='table shadow'>
             <thead>

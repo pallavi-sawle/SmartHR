@@ -1,41 +1,41 @@
-.App {
-  text-align: center;
+
+* {
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width:80%;
+  margin:auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media all and (min-width:1000px) {
+  .col-1{width:8.36%}
+  .col-2{width:16.66%}
+  .col-3{width:24.99%}
+  .col-4{width:33.32%}
+  .col-5{width:41.65%}
+  .col-6{width:49.98%}
+  .col-7{width:58%}
+  .col-8{width:66.64%}
+  .col-9{width:74.97%}
+  .col-10{width:83%}
+  .col-11{width:91%}
+  .col-12{width:100%}
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+@media all and (min-width:500px)
+{
+  .col-1{width:100%}
+  .col-2{width:100%}
+  .col-3{width:100%}
+  .col-4{width:100%}
+  .col-5{width:100%}
+  .col-6{width:100%}
+  .col-7{width:100%}
+  .col-8{width:100%}
+  .col-9{width:100%}
+  .col-10{width:100%}
+  .col-11{width:100%}
+  .col-12{width:100%}
 }
 
 #pill {
@@ -55,28 +55,35 @@
 }
 
 #navbarpill {
-  width: 200px;
-  height: 30px;
   border-radius: 15px;
-  background-color: rgb(238, 102, 125);
+  background-color: #ee667d;
+  margin-left: 650px;
+  margin-right: 8px;
+  margin-top: 8px;
+  height: 30px;
+  border: none;
 }
 
-.iconsearch {
-  position: absolute;
-  right: 360px;
-  top: 25px;
+.marginnotification {
+  margin-right: 15px;
+}
+
+input {
+  border: none;
+  background-color: rgb(238, 102, 125);
+  border-radius: 50px;
+}
+
+#searchradius1 {
+  border-radius: 10px;
+  border: none;
+  background-color: #ee667d;
+  color:white
 }
 
 #gradient {
   height: 50px;
   background: linear-gradient(to right, orange, rgb(211, 58, 84));
-}
-
-sup {
-  height: 100px;
-  width: 1000;
-  background-color: #bbb;
-  border-radius: 100%;
 }
 
 .btn1 {
@@ -111,7 +118,8 @@ p.weight {
 }
 
 .text {
-  border-radius: 8px;
+  border-radius: 4px;
+  border: none;
 }
 
 .text:hover {
@@ -127,21 +135,26 @@ p.weight {
 .addheading {
   margin-left: 200px;
 }
-.formfont { 
+
+.formfont {
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
+
 .sethighlite {
-  font-weight:600;
+  font-weight: 600;
 }
+
 .submitvalue {
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
+
 .tableheadrow {
   font-family: "Times New Roman", Times, serif;
   font-size: 12px;
 }
+
 /* .statusalign {
   height:25px;
   width:45px;
@@ -160,7 +173,7 @@ p.weight {
   position: relative;
   display: inline-block;
   width: 60px;
-  height: 34px;
+  height: 33px;
 }
 
 /* Hide default HTML checkbox */
@@ -178,7 +191,7 @@ p.weight {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: rgb(185, 49, 49);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -199,10 +212,6 @@ input:checked+.slider {
   background-color: rgb(208, 20, 20);
 }
 
-/* input:focus+.slider {
-  box-shadow: 0 0 1px #2196F3;
-} */
-
 input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
@@ -211,9 +220,9 @@ input:checked+.slider:before {
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+  border-radius: 80px;
 }
 
 .slider.round:before {
-  border-radius: 50%;
+  border-radius: 60%;
 }

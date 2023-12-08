@@ -1,11 +1,11 @@
 import './App.css';
-import NavBar from './SMARTHR-2/NavBar';
+import Nav from './SMARTHR-2/nav';
 import Subscription from './SMARTHR-2/Subscription';
 
 function App() {
   return (
     <>
-      <NavBar />
+      <Nav/>
       <Subscription />
     </>
   );

@@ -1,41 +1,135 @@
-
 * {
   box-sizing: border-box;
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
-.container {
-  width:80%;
-  margin:auto;
+
+/* .btn-text {
+  position: relative;
+} */
+/* .btn-text {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  flex-wrap: wrap;
+  /* width:3px */
+  /* margin-right:40px; */
+/* } 
+@media only screen and (min-width: 768px) {
+  .vertical-buttons {
+    
+    display: flex;
+    text-wrap:nowrap;
+  }
+} */ 
+@media all and (min-width:1024px) {
+/* 
+.btn-text {
+ display:inline-block;
+  /* Adjust styles for wider screens */
+  /* For example, increase button width or change layout */
+/* } */ 
+  .col-1 {
+    width: 8.36%
+  }
+
+  .col-2 {
+    width: 16.66%
+  }
+
+  .col-3 {
+    width: 24.99%
+  }
+
+  .col-4 {
+    width: 33.32%
+  }
+
+  .col-5 {
+    width: 41.65%
+  }
+
+  .col-6 {
+    width: 49.98%
+  }
+
+  .col-7 {
+    width: 58%
+  }
+
+  .col-8 {
+    width: 66.64%
+  }
+
+  .col-9 {
+    width: 74.97%
+  }
+
+  .col-10 {
+    width: 83%
+  }
+
+  .col-11 {
+    width: 91%
+  }
+
+  .col-12 {
+    width: 100%
+  }
 }
-@media all and (min-width:1000px) {
-  .col-1{width:8.36%}
-  .col-2{width:16.66%}
-  .col-3{width:24.99%}
-  .col-4{width:33.32%}
-  .col-5{width:41.65%}
-  .col-6{width:49.98%}
-  .col-7{width:58%}
-  .col-8{width:66.64%}
-  .col-9{width:74.97%}
-  .col-10{width:83%}
-  .col-11{width:91%}
-  .col-12{width:100%}
+
+.fit {
+  width: fit-content;
 }
-@media all and (min-width:500px)
-{
-  .col-1{width:100%}
-  .col-2{width:100%}
-  .col-3{width:100%}
-  .col-4{width:100%}
-  .col-5{width:100%}
-  .col-6{width:100%}
-  .col-7{width:100%}
-  .col-8{width:100%}
-  .col-9{width:100%}
-  .col-10{width:100%}
-  .col-11{width:100%}
-  .col-12{width:100%}
+
+@media all and (min-width:500px) {
+  .col-1 {
+    width: 100%
+  }
+
+  .col-2 {
+    width: 100%
+  }
+
+  .col-3 {
+    width: 100%
+  }
+
+  .col-4 {
+    width: 100%
+  }
+
+  .col-5 {
+    width: 100%
+  }
+
+  .col-6 {
+    width: 100%
+  }
+
+  .col-7 {
+    width: 100%
+  }
+
+  .col-8 {
+    width: 100%
+  }
+
+  .col-9 {
+    width: 100%
+  }
+
+  .col-10 {
+    width: 100%
+  }
+
+  .col-11 {
+    width: 100%
+  }
+
+  .col-12 {
+    width: 100%
+  }
 }
 
 #pill {
@@ -78,7 +172,8 @@ input {
   border-radius: 10px;
   border: none;
   background-color: #ee667d;
-  color:white
+  color: white;
+  margin-bottom: 1px;
 }
 
 #gradient {
@@ -87,7 +182,7 @@ input {
 }
 
 .btn1 {
-  min-width: 250px;
+ width:180px;
 }
 
 .tableheading {
@@ -172,8 +267,8 @@ p.weight {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 33px;
+  width: 42px;
+  height: 20px;
 }
 
 /* Hide default HTML checkbox */
@@ -192,15 +287,15 @@ p.weight {
   right: 0;
   bottom: 0;
   background-color: rgb(185, 49, 49);
-  -webkit-transition: .4s;
-  transition: .4s;
+  /* -webkit-transition: .s; */
+  /* transition: .4s; */
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 13px;
+  width: 13px;
   left: 4px;
   bottom: 4px;
   background-color: white;
